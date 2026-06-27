@@ -1,15 +1,15 @@
 ## O que é Arquitetura de Software?
 
-Arquitetura de software é a forma como um sistema é planejado, organizado e dividido para funcionar de maneira clara, segura e sustentável. Ela define quais partes compõem a aplicação, como essas partes se comunicam, quais tecnologias serão utilizadas e quais regras orientam o crescimento do projeto.
+Para a nossa equipe, arquitetura de software é o planejamento da estrutura de um sistema antes e durante o seu desenvolvimento. Ela mostra como o sistema será dividido, quais partes vão existir, como elas vão se comunicar e qual será a responsabilidade de cada uma.
 
-Em outras palavras, a arquitetura funciona como a estrutura principal do sistema. Antes de pensar apenas em telas ou códigos isolados, é necessário entender onde cada responsabilidade deve ficar: a interface com o usuário, as regras de negócio, o banco de dados, os serviços externos e os mecanismos de segurança.
+No nosso projeto, por exemplo, percebemos que não bastava criar telas bonitas ou cadastrar informações. Também era necessário pensar em como o frontend se comunicaria com o backend, onde os dados seriam armazenados, como os usuários teriam permissões diferentes e como o sistema poderia crescer futuramente sem virar algo desorganizado.
 
-No desenvolvimento de sistemas, uma boa arquitetura é importante porque evita que o projeto cresça de forma desorganizada. Quando as responsabilidades estão bem separadas, a equipe consegue corrigir erros com mais facilidade, adicionar novas funcionalidades com menos retrabalho e manter o código mais compreensível para todos os integrantes.
+A arquitetura é importante porque ajuda a equipe a desenvolver com mais clareza. Quando cada parte do sistema tem uma função bem definida, fica mais fácil corrigir erros, adicionar novas funcionalidades e entender o código depois de algum tempo. Isso também facilita o trabalho em grupo, pois cada integrante consegue compreender melhor onde sua parte se encaixa no projeto.
 
-A arquitetura também impacta diretamente a escalabilidade. Se o sistema for bem estruturado, ele pode receber novos usuários, novos módulos e novas integrações sem precisar ser refeito do zero. No caso do nosso MVP, por exemplo, a separação entre frontend e backend permite que futuramente a mesma API seja usada por uma versão mobile da plataforma.
+Ela também influencia diretamente a escalabilidade. Se o sistema for bem organizado desde o início, ele pode receber novas funções, novos usuários e até novas versões, como um aplicativo mobile, sem precisar ser totalmente refeito.
 
-Em relação à segurança, a arquitetura define como o acesso será controlado, como os dados serão protegidos e quais usuários poderão realizar determinadas ações. Isso é essencial em sistemas que possuem diferentes perfis, como produtores, entidades de apoio e administradores.
+Na segurança, a arquitetura ajuda a definir quem pode acessar cada funcionalidade. No nosso MVP, por exemplo, produtores, entidades de apoio e administradores não devem ter exatamente as mesmas permissões. Essa separação protege os dados e evita que usuários acessem áreas que não fazem parte do seu perfil.
 
-O desempenho também depende das decisões arquiteturais. Um sistema com camadas bem definidas, banco de dados organizado e requisições padronizadas tende a responder melhor e consumir menos recursos. Além disso, a manutenção se torna mais simples, porque cada parte do sistema possui uma função específica.
+O desempenho também depende dessas decisões. Um sistema com camadas bem separadas, banco de dados organizado e comunicação padronizada tende a funcionar melhor e ser mais fácil de ajustar quando houver problemas.
 
-Por fim, a arquitetura influencia a evolução e a qualidade geral do software. Um projeto com boa arquitetura não serve apenas para funcionar no momento da entrega; ele também fica preparado para crescer, receber melhorias e continuar sendo útil ao longo do tempo. Por isso, pensar na arquitetura desde o início é uma prática essencial para criar sistemas mais confiáveis, organizados e alinhados às necessidades reais dos usuários.
+Por fim, entendemos que a arquitetura de software impacta diretamente a qualidade do projeto. Ela não é apenas uma parte teórica da documentação, mas uma base que orienta as decisões técnicas e ajuda o sistema a ser mais seguro, organizado, fácil de manter e preparado para evoluir.
