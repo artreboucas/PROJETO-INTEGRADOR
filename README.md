@@ -6,7 +6,7 @@
 
 ## 📌 Contexto Acadêmico
 
-Este projeto foi desenvolvido no âmbito do **Projeto Integrado III (ADS0038)** do curso de **Análise e Desenvolvimento de Sistemas (ADS)**, vinculado ao **Centro de Educação a Distância (CEAD)** da **Universidade Federal do Cariri (UFCA)**.
+Este projeto foi desenvolvido no âmbito do **Projeto Integrado** do curso de **Análise e Desenvolvimento de Sistemas (ADS)**, vinculado ao **Centro de Educação a Distância (CEAD)** da **Universidade Federal do Cariri (UFCA)**.
 
 O presente repositório corresponde ao **Entregável Parcial 1 (EP1)**, cujo objetivo é o desenvolvimento de um **protótipo de alta fidelidade do MVP web** utilizando o Figma, com foco em usabilidade, consistência visual e experiência do usuário (UX).
 
