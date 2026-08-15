@@ -155,10 +155,7 @@ Projeto desenvolvido pelos discentes do curso de **Análise e Desenvolvimento de
 |---|---|
 | Arthur Rebouças do Carmo | 2025019454 |
 | Sheila Matias Barroso | 2025014897 |
-| Rubens Lopes dos Santos | 2025014805 |
 | Carlos Rodrigo Ferreira da Silva | 2025014304 |
-| Viviana Barros Gomes de Sousa | 2025014912 |
-| Samuelson da Silva Lima | 2025014860 |
 | Vitoria Cavalcante Souza | 2025019481 |
 
 ---
