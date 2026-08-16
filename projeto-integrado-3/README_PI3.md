@@ -7,7 +7,7 @@
 
 ---
 
-## 🎨 Protótipo Navegável (Figma)
+## 🎨 [EP2] Protótipo Navegável (Figma)
 
 🔗 **[Acessar protótipo no Figma](https://www.figma.com/design/Ikzoi5h2P2utdvvWbDfaKz/ProjetoIntegrador3?node-id=0-1&t=vYjMJ6uE4YkdTvjr-1)**
 
