@@ -145,6 +145,20 @@ npm run preview
 
 O fluxo de recuperação está representado no MVP de forma demonstrativa: o usuário informa o e-mail, acessa a etapa de código e retorna à tela de login. O envio real de e-mail será integrado posteriormente ao serviço previsto na arquitetura do EP2.
 
+## 🛠 Processo de desenvolvimento
+
+O desenvolvimento do MVP do Semeando Saberes foi conduzido de forma colaborativa, utilizando metodologias ágeis para garantir a entrega funcional dentro do prazo da Sprint 3.
+
+**Divisão de tarefas e colaboração:**
+A equipe foi dividida para cobrir as principais frentes do projeto: desenvolvimento da interface (UI/UX), implementação lógica das funcionalidades em React, documentação técnica e revisão do versionamento no GitHub. Mantivemos comunicação constante para alinhar a integração dos componentes e a consistência visual entre as telas.
+
+**Uso do GitHub e Versionamento:**
+Utilizamos o GitHub como nossa principal ferramenta de versionamento. Nossa estratégia consistiu no uso da branch principal (`main`).
+
+**Dificuldades encontradas e soluções:**
+* **Gerenciamento de Estado sem Backend:** O maior desafio foi simular um fluxo real de aplicação sem possuir um banco de dados integrado nesta etapa. A solução foi a criação de um módulo `mockData` centralizado e o uso do `localStorage` para persistir a sessão e dados do usuário localmente, garantindo uma experiência fluida de navegação.
+* **Consistência Visual:** Manter a interface responsiva e fiel ao protótipo sem o uso de frameworks CSS robustos foi um desafio. Optamos pelo uso de CSS puro, focando em boas práticas de flexbox e grid para garantir leveza e velocidade de carregamento.
+  
 ## 🌎 Impacto social
 
 A solução procura reduzir a dificuldade de acesso a conhecimento técnico enfrentada por agricultores familiares que participam de feiras agroecológicas. Ao centralizar capacitações, consultorias e compromissos, a plataforma pode facilitar a busca por orientação, apoiar a melhoria da produção e aproximar produtores de universidades, institutos e outras organizações.
