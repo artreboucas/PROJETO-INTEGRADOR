@@ -203,6 +203,16 @@ Após o término da inicialização no terminal, abra o seu navegador de prefer�
 
 ---
 
+# PROCESSO DE DESENVOLVIMENTO
+
+| Nome | Função |
+|---|---|
+| Arthur Rebouças do Carmo | Ficou responsável por construir e fazer funcionar a parte visual que o produtor rural utiliza, incluindo a tela de entrada (formulário de Login), o painel inicial com resumos e números (Dashboard interativo com indicadores/KPIs), o catálogo de aulas (Central de Capacitações) e a navegação entre as informações dos cursos. Desenvolvel ainda a área usada pelos professores e especialistas (Painel Administrativo), o formulário para publicar novas aulas, a checagem automática para evitar erros ao preencher dados (validação visual de campos) e a adaptação visual para que o site funcione bem na tela de qualquer celular (responsividade e mobile-first). |
+| Sheila Matias Barroso | 2025014897 |
+| Carlos Rodrigo Ferreira da Silva | 2025014304 |
+| Vitoria Cavalcante Souza | 2025019481 |
+
+---
 # ➕ COMPONENTE EXTENSIONISTA:
 
 ## Como utilizar a aplicação
