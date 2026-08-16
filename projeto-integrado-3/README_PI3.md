@@ -1,4 +1,4 @@
-# 🌱 Projeto Integrado III — EP1: Protótipo de Alta Fidelidade
+# 🌱 Projeto Integrado III 
 
 > **Sistema de Gestão de Feiras Agroecológicas Locais**  
 > Curso de Análise e Desenvolvimento de Sistemas (ADS) — UFCA/CEAD  
