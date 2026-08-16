@@ -205,12 +205,64 @@ Após o término da inicialização no terminal, abra o seu navegador de prefer�
 
 # PROCESSO DE DESENVOLVIMENTO
 
+## 1. Divisão de Tarefas na Equipe (4 Membros)
+
+A distribuição das atividades foi organizada de forma a adquar as habilidades dos integrantes e mantendo os registros técnicos necessários:
+
 | Nome | Função |
 |---|---|
 | Arthur Rebouças do Carmo | Ficou responsável por construir e fazer funcionar a parte visual que o produtor rural utiliza, incluindo a tela de entrada (formulário de Login), o painel inicial com resumos e números (Dashboard interativo com indicadores/KPIs), o catálogo de aulas (Central de Capacitações) e a navegação entre as informações dos cursos. Desenvolvel ainda a área usada pelos professores e especialistas (Painel Administrativo), o formulário para publicar novas aulas, a checagem automática para evitar erros ao preencher dados (validação visual de campos) e a adaptação visual para que o site funcione bem na tela de qualquer celular (responsividade e mobile-first). |
 | Sheila Matias Barroso | Controlar a união das partes do projeto feitas por cada colega (gestão de branches e controle de pull requests); Ficou responsável por escrever o guia explicativo do projeto (arquivo README.md), redigir o texto sobre a utilidade e o impacto do sistema na vida dos agricultores (seção do Componente Extensionista), montar o documento final para envio (Relatório Técnico em PDF). |
 | Carlos Rodrigo Ferreira da Silva | Organizar a gravação e edição da fala da equipe (vídeo demonstrativo)|
 | Vitoria Cavalcante Souza | Ficou responsável por criar a base e organizar as pastas onde o site foi construído (definição da arquitetura e repositório no GitHub); Dar apoio no código para quem precisasse (suporte técnico em desenvolvimento); Dar suporte na revisão do (arquivo README.md) e Relatório. |
+
+## 2. Uso do GitHub e Estratégia de Versionamento
+
+Para manter a organização e a rastreabilidade do código-fonte, a equipe adotou uma estratégia de versionamento baseada no Git Flow simplificado:
+
+```
+main (Código estável / Deploy)
+
+▲
+
+│ (Pull Request revisado)
+
+develop (Integração da Sprint)
+
+▲
+
+├── feature/login-autenticacao
+
+├── feature/dashboard-produtor
+
+├── feature/agendamento-consultoria
+
+└── feature/painel-rede-apoio
+```
+
+**Branch main:** Mantida estritamente com o código estável e pronto para publicação/deploy.
+**Branch develop:** Utilizada para consolidar as funcionalidades desenvolvidas durante a Sprint.
+**Feature Branches (feature/nome-da-funcionalidade):** Cada nova tela ou componente foi isolado em um ramo próprio de trabalho, evitando interferências diretas no código em desenvolvimento pelos colegas.
+**Commits Atômicos:** Mensagens de commit descritivas e objetivas (ex: feat: adiciona componente de card de curso, fix: ajusta responsividade do menu lateral no mobile).
+**Pull Requests e Code Review:** A fusão de código (merge) para as branches principais só ocorria após revisão técnica, garantindo a prevenção de erros e a integridade da aplicação. 
+
+## 3. Dificuldades Encontradas durante a Sprint
+
+**Perda de Integrantes na Equipe (Readequação do Escopo):** O grupo encolheu de 6 para 4 membros no meio do projeto, o que nos obrigou a reorganizar as tarefas rápido para conseguir entregar tudo no prazo.
+**Pouco Tempo de Produção (Tempo Limitado de Execução):** Muito relacionado a questões individuais de capa membro, principalmente trabalho..
+**Horários Diferentes para Conversar (Desafios na Comunicação Assíncrona):** A rotina dos integrantes era diferente, o que dificultava marcar reuniões com todo mundo ao mesmo tempo para alinhar o andamento do projeto.
+**Diferença no Conhecimento de Programação (Disparidade Técnica):** Nem todos os membros sabiam programar no mesmo nível, o que gerou um peso inicial maior para quem já sabia e insegurança em quem estava aprendendo.
+**Ajuste do Layout para Celulares (Responsividade e IHC):** Foi um desafio fazer com que os painéis e formulários de agendamento ficassem fáceis de mexer em telas pequenas de celular, que é como o agricultor vai usar no campo.
+**Conflitos ao Juntar o Código dos Colegas (Conflitos no Git / Merge Conflicts):** Quando duas pessoas mexiam nas mesmas partes do código ao mesmo tempo, o sistema gerava travamentos na hora de unificar o projeto no GitHub.
+
+## 4. Soluções Adotadas
+
+**Divisão Clara e Foco no Essencial (Redefinição do Escopo do MVP):** Reorganizamos a equipe para focar apenas nas telas mais importantes (Produtor e Rede de Apoio), definindo exatamente a responsabilidade de cada uma das 4 pessoas.
+**Corte de Excessos para Cumprir Prazos (Priorização Ágil e Backlog Enxuto):** Deixamos de lado recursos muito complexos e focamos estritamente no que era obrigatório para ter a aplicação funcionando a tempo.
+**Canal Único de Mensagens e Recados Diários (Comunicação Centralizada e Daily Check-ins):** Criamos um grupo de comunicação instantânea para tirar dúvidas rápidas e mandar resumos diários do que já tinha sido feito por cada um.
+**Trabalho em Dupla e Apoio Mútuo (Mentoria Interna e Pair Programming):** Os integrantes com mais prática em código programaram junto com quem tinha menos experiência. Além disso, aproveitamos as facilidades de cada um em escrita, design ou edição de vídeo.
+**Botões Grandes e Layout Flexível (Design Mobile-First e CSS Grid):** Criamos o visual pensando primeiro no uso pelo celular, colocando botões fáceis de apertar com o dedo (área de toque ampla) e organizando a tela para se ajustar a qualquer aparelho.
+**Uso de Dados de Teste Padronizados (Centralização via Mock Data):** Criamos um arquivo com informações fictícias prontas para que todos usassem os mesmos dados no sistema, evitando erros ao testar as telas.
 
 ---
 # ➕ COMPONENTE EXTENSIONISTA:
