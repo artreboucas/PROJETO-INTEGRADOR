@@ -1,9 +1,9 @@
 # 🌱 Sistema de Gestão de Feiras Agroecológicas Locais
 
-> UNIVERSIDADE FEDERAL DO CARIRI - UFCA
-> Curso de Análise e Desenvolvimento de Sistemas (ADS) 
-> Projeto Integrado III (ADS0038)
-> Prof. Dr. Luís Fabrício de Freitas Souza
+> - UNIVERSIDADE FEDERAL DO CARIRI - UFCA
+> - Curso de Análise e Desenvolvimento de Sistemas (ADS) 
+> - Projeto Integrado III (ADS0038)
+> - Prof. Dr. Luís Fabrício de Freitas Souza
 
 ---
 
