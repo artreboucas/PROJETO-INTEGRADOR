@@ -28,26 +28,29 @@
 🔗 **[Acessar ao relatório](https://drive.google.com/drive/folders/1UF5wMLXgTJ-15nbzdrMTHb3-gcTI3dZY?usp=sharing)**
 
 ---
-
-## ❓ Problema que a solução resolve
-
-Agricultores familiares que participam de feiras agroecológicas enfrentam dificuldades para acessar capacitações técnicas e consultorias especializadas. A comunicação entre produtores e redes de apoio é fragmentada, feita por grupos de WhatsApp e planilhas avulsas, sem registro ou organização centralizada.
-
-O sistema resolve essa lacuna ao reunir em uma única plataforma web: capacitações, consultorias, agendamentos e materiais de apoio — de forma acessível e intuitiva.
-
----
+# DESCRIÇÃO DO PROJETO:
 
 ## 🎯 Objetivo do sistema
 
-Digitalizar e organizar a gestão das feiras agroecológicas locais, conectando três perfis:
+Conectar agricultores familiares a uma rede de apoio técnico e profissional (universidades, institutos de pesquisa e secretarias), atuando como uma ponte digital entre as necessidades do campo e a oferta de conhecimento especializado, conectando três perfis:
 
-- **Produtor** — acessa capacitações, consultorias, agenda e histórico de treinamentos
-- **Rede de Apoio** — cria e gerencia capacitações e consultorias oferecidas
-- **Administrador** — gerencia o sistema como um todo
+- **Produtor** — acessa capacitações, consultorias, agenda e histórico de treinamentos.
+- **Rede de Apoio** — cria e gerencia capacitações e consultorias oferecidas.
+- **Administrador** — gerencia o sistema como um todo.
 
----
+## ❓ Problema que busca resolver
 
-## ⚙️ Fluxo de navegação
+Agricultores familiares envolvidos em feiras agroecológicas enfrentam desafios complexos no manejo do plantio, na logística de distribuição, na conservação dos produtos e na adequação a exigências legais. Nossa solução visa sanar essa problemática ao conectar, de forma totalmente gratuita, esses produtores a uma rede de especialistas e profissionais capazes de oferecer suporte técnico e capacitação orientada.
+
+O sistema resolve essa lacuna ao reunir em uma única plataforma web: capacitações, consultorias, agendamentos e materiais de apoio — de forma acessível e intuitiva.
+
+## 👥 Público Alvo
+
+- **Público-Alvo Principal:** Agricultores Famílias e Pequenos Produtores Agroecológicos
+- **Público-Alvo Secundário:** Rede de Apoio e Especialistas
+- **Beneficiários Indiretos:** Comunidade Local e Consumidores
+
+## ⚙️ Fluxo de navegação e principais funcionalidades
 
 ```
 Login
@@ -68,76 +71,130 @@ Login (Rede de Apoio)
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+# 🛠️ TECNOLOGIAS UTILIZADAS ??????
 
-| Tecnologia | Uso |
-|---|---|
-| Figma / Figma Make | Prototipação de alta fidelidade |
-| React + TypeScript | Base do protótipo interativo |
-| Tailwind CSS | Estilização das interfaces |
-| Vite | Bundler do projeto |
-| GitHub | Versionamento e documentação |
-
-**Paleta de cores:**
-- Verde escuro `#2E7D32` — cor primária
-- Verde claro `#66BB6A` — destaque e ações
-- Branco `#FFFFFF` — fundo
-- Cinza claro `#F5F5F5` — cards e seções
-
-**Tipografia:** Poppins (Google Fonts)
+?????????
 
 ---
 
-## 🎨 Importância da Experiência do Usuário (UX)
+# 🛠️ ESTRUTURA DO PROJETO ????
 
-A Experiência do Usuário vai além da estética — ela representa como uma pessoa se sente ao interagir com um sistema. No nosso projeto, isso é especialmente importante porque o público principal inclui agricultores familiares, que em muitos casos têm pouca familiaridade com tecnologia digital.
+O projeto foi organizado seguindo uma arquitetura modular e escalável, baseada na separação clara de responsabilidades entre componentes de interface, páginas da aplicação, arquivos de estilo e utilitários. Essa estrutura facilita a reutilização do código, a manutenção por diferentes membros da equipe e a integração contínua via Git.
 
-Um sistema com boa UX pode ser a diferença entre uma ferramenta adotada no dia a dia e uma abandonada logo nos primeiros usos. Quando o design é centrado no usuário, ele reduz erros, diminui o tempo de aprendizado e aumenta a confiança das pessoas na tecnologia.
+## Árvore de Diretórios
 
-Princípios aplicados no protótipo:
-
-- **Consistência visual** — mesma paleta, tipografia e componentes em todas as telas
-- **Hierarquia clara** — títulos, subtítulos e textos com pesos diferentes guiam o olhar
-- **Navegação intuitiva** — menu lateral fixo com ícone + label em cada item
-- **Feedback visual** — botões com estados hover e active; badges de status coloridos
-- **Prevenção de erros** — formulários com validação e mensagens explicativas
-- **Acessibilidade** — contraste verificado (WCAG 2.1 nível AA), fontes mínimas de 14px
-- **Linguagem simples** — sem jargões técnicos, adequada ao perfil do agricultor familiar
+```
+semeando-saberes-mvp/
+├── public/                     # Arquivos estáticos e públicos da aplicação
+│   ├── favicon.ico             # Ícone da aba do navegador
+│   ├── index.html              # Documento HTML principal (Single Page Application)
+│   └── assets/                 # Logotipos, ícones e mídias estáticas
+│
+├── src/                        # Código-fonte principal da aplicação
+│   ├── assets/                 # Estilos globais e recursos visuais
+│   │   ├── css/                # Arquivos CSS modulares (estilos globais e componentes)
+│   │   └── images/             # Imagens ilustrativas das capacitações e avatares
+│   │
+│   ├── components/             # Componentes de interface reutilizáveis (UI)
+│   │   ├── Sidebar/            # Barra de navegação lateral fixa
+│   │   ├── Header/             # Cabeçalho do sistema com saudações e perfil
+│   │   ├── CardCurso/          # Cartão para exibição individual de capacitações
+│   │   ├── CardConsultoria/    # Cartão de agendamento e chamados técnicos
+│   │   ├── MetricCard/         # Cartões de indicadores/KPIs do Dashboard
+│   │   ├── Calendar/           # Componente interativo de calendário mensal
+│   │   └── Button/             # Botões padronizados (primário, secundário, toque amplo)
+│   │
+│   ├── pages/                  # Telas/Páginas principais da aplicação
+│   │   ├── Login/              # Tela de autenticação e seleção de perfil
+│   │   ├── Dashboard/          # Painel principal do produtor com métricas e avisos
+│   │   ├── Capacitacoes/       # Catálogo geral de cursos e detalhes do curso
+│   │   ├── Consultorias/       # Interface de solicitação de suporte técnico
+│   │   ├── Treinamentos/       # Tela "Meus Treinamentos" com progresso percentual
+│   │   ├── Agenda/             # Calendário de eventos, aulas e consultorias
+│   │   ├── Perfil/             # Gestão de dados do agricultor e da propriedade
+│   │   └── PainelAdmin/        # Painel da Rede de Apoio (criação de cursos e chamados)
+│   │
+│   ├── routes/                 # Gerenciamento de navegação e rotas web
+│   │   └── AppRoutes.jsx       # Definição das rotas públicas e protegidas
+│   │
+│   └── utils/                  # Funções auxiliares e utilitários
+│       ├── validation.js       # Validação de campos de formulário (e-mail, CPF/CNPJ)
+│       └── mockData.js         # Dados simulados para o MVP (cursos, agendamentos)
+│
+├── .gitignore                  # Arquivos e pastas ignorados pelo controle de versão Git
+├── package.json                # Gerenciamento de dependências e scripts do projeto
+├── README.md                   # Documentação completa e guia de utilização da aplicação
+└── vite.config.js / webpack    # Configurações do bundler/gerenciador de build
+```
 
 ---
 
-## 🌍 Possíveis usos da nossa solução
+# </> INSTALAÇÃO E EXECUÇÃO
 
-- **Prefeituras** podem usar o sistema para organizar feiras agroecológicas municipais e monitorar a participação dos produtores
-- **Universidades** podem registrar e gerenciar projetos de extensão voltados à assistência técnica rural
-- **Cooperativas** podem centralizar comunicação com associados e divulgar treinamentos
-- **ONGs** podem sistematizar ações de apoio à agricultura familiar com mais rastreabilidade
-- **Produtores** ganham autonomia para acessar capacitações sem depender de canais informais
+## Instalação e Execução Local
 
----
+Esta seção apresenta o passo a passo detalhado para que qualquer desenvolvedor ou avaliador possa clonar, configurar e executar a aplicação em seu ambiente local.
 
-## 📋 Critérios atendidos
+**1. Pré-requisitos**
+Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
-| Critério | Status |
-|---|---|
-| Protótipo de alta fidelidade | ✅ |
-| Principais telas e fluxos | ✅ 9 telas |
-| Consistência visual | ✅ Design system definido |
-| Princípios de UX e usabilidade | ✅ WCAG, Nielsen |
-| README com justificativas de design | ✅ |
-| Link para o Figma | ✅ |
-| Repositório organizado no GitHub | ✅ |
+- Git (versão 2.x ou superior)
+- Node.js (versão 18.x ou superior recomendada)
+- Gerenciador de pacotes npm (incluso com o Node.js) ou yarn
 
----
+**2. Passo a Passo de Execução**
 
-## 👥 Equipe
+**Passo 1:** Clonar o Repositório
+Abra o terminal de seu sistema operacional e execute o comando abaixo para clonar o projeto:
+```
+Bash
+git clone https://github.com/seu-usuario/semeando-saberes-mvp.git
+Em seguida, acesse o diretório raiz do projeto:
+```
 
-| Nome | Matrícula |
-|---|---|
-| Arthur Rebouças do Carmo | 2025019454 |
-| Sheila Matias Barroso | 2025014897 |
-| Carlos Rodrigo Ferreira da Silva | 2025014304 |
-| Vitoria Cavalcante Souza | 2025019481 |
+```
+Bash
+cd semeando-saberes-mvp
+Passo 2: Instalar as Dependências
+Instale todas as bibliotecas e pacotes necessários declarados no arquivo package.json:
+```
+
+```
+Bash
+npm install
+(Caso utilize o Yarn, execute apenas yarn)
+```
+
+**Passo 3:** Configuração do Ambiente
+Como o MVP utiliza dados simulados em memória (Mock Data) para demonstração das funcionalidades sem necessidade de conexão ativa a banco de dados externo, não é necessária nenhuma configuração complexa de banco de dados local.
+
+(Opcional) Caso deseje ajustar a porta de execução ou conectar a serviços externos, crie um arquivo .env na raiz do projeto com base no arquivo de exemplo fornecido:
+
+```
+Bash
+cp .env.example .env
+```
+
+**Passo 4:** Executar a Aplicação
+Inicie o servidor de desenvolvimento local:
+
+Se o projeto utiliza Vite (Padrão recomendado):
+
+```
+Bash
+npm run dev
+Se o projeto utiliza Create React App:
+```
+
+```
+Bash
+npm start
+```
+
+**Passo 5:** Acessar o Sistema
+Após o término da inicialização no terminal, abra o seu navegador de preferência e acesse o endereço fornecido:
+
+**Endereço Padrão (Vite):** ????????????????????
 
 ---
 
