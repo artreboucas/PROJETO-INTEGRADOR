@@ -29,7 +29,8 @@
 
 ## 🖥️ [EP3] Prototipação do Wireframe e do Sitemap do MVP
 ⬇️⬇️⬇️ A seguir ⬇️⬇️⬇️
----
+
+
 # 📂 DESCRIÇÃO DO PROJETO:
 
 ## 🎯 Objetivo do sistema
