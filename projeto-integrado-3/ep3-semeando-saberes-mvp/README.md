@@ -15,20 +15,6 @@
 | Vitoria Cavalcante Souza | 2025019481 |
 
 ---
-# HISTÓRICO DE ENTREGÁVEIS:
-
-## 🎨 [EP1] Protótipo Navegável (Figma)
-
-🔗 **[Acessar protótipo no Figma](https://www.figma.com/design/Ikzoi5h2P2utdvvWbDfaKz/ProjetoIntegrador3?node-id=0-1&t=vYjMJ6uE4YkdTvjr-1)**
-
-📸 **[Telas prototipadas](https://github.com/artreboucas/PROJETO-INTEGRADOR/blob/main/projeto-integrado-3/README_PI3.md#-telas-do-prot%C3%B3tipo)** 
-
-## 🖥️ [EP2] Modelo Arquitetural do MVP Web
-
-🔗 **[Acessar ao relatório](https://drive.google.com/drive/folders/1UF5wMLXgTJ-15nbzdrMTHb3-gcTI3dZY?usp=sharing)**
-
-## 🖥️ [EP3] Prototipação do Wireframe e do Sitemap do MVP
-⬇️⬇️⬇️ A seguir ⬇️⬇️⬇️
   
 ## 🎯 Sobre o projeto
 
