@@ -1,14 +1,35 @@
-# 🌱 Semeando Saberes — MVP Web
+# 🌱 Sistema de Gestão de Feiras Agroecológicas Locais
 
-Sistema de Gestão de Feiras Agroecológicas Locais — Projeto Integrado III (ADS0038), UFCA.
+> - UNIVERSIDADE FEDERAL DO CARIRI - UFCA
+> - Curso de Análise e Desenvolvimento de Sistemas (ADS) 
+> - Projeto Integrado III (ADS0038)
+> - Prof. Dr. Luís Fabrício de Freitas Souza
 
 ## 👥 Equipe
 
-- Arthur Rebouças do Carmo — 2025019454
-- Sheila Matias Barroso — 2025014897
-- Carlos Rodrigo Ferreira da Silva — 2025014304
-- Vitoria Cavalcante Souza — 2025019481
+| Nome | Matrícula |
+|---|---|
+| Arthur Rebouças do Carmo | 2025019454 |
+| Sheila Matias Barroso | 2025014897 |
+| Carlos Rodrigo Ferreira da Silva | 2025014304 |
+| Vitoria Cavalcante Souza | 2025019481 |
 
+---
+# HISTÓRICO DE ENTREGÁVEIS:
+
+## 🎨 [EP1] Protótipo Navegável (Figma)
+
+🔗 **[Acessar protótipo no Figma](https://www.figma.com/design/Ikzoi5h2P2utdvvWbDfaKz/ProjetoIntegrador3?node-id=0-1&t=vYjMJ6uE4YkdTvjr-1)**
+
+📸 **[Telas prototipadas](https://github.com/artreboucas/PROJETO-INTEGRADOR/blob/main/projeto-integrado-3/README_PI3.md#-telas-do-prot%C3%B3tipo)** 
+
+## 🖥️ [EP2] Modelo Arquitetural do MVP Web
+
+🔗 **[Acessar ao relatório](https://drive.google.com/drive/folders/1UF5wMLXgTJ-15nbzdrMTHb3-gcTI3dZY?usp=sharing)**
+
+## 🖥️ [EP3] Prototipação do Wireframe e do Sitemap do MVP
+⬇️⬇️⬇️ A seguir ⬇️⬇️⬇️
+  
 ## 🎯 Sobre o projeto
 
 O Semeando Saberes conecta agricultores familiares a uma rede de apoio técnico e profissional, reunindo capacitações, consultorias, agenda e acompanhamento de treinamentos em uma única aplicação web.
@@ -184,3 +205,85 @@ O EP2 definiu uma arquitetura Cliente-Servidor, com frontend React/TypeScript, T
 - Integrar envio de e-mails;
 - Integrar armazenamento de arquivos e materiais técnicos;
 - Criar painel administrativo com indicadores reais.
+
+# PROCESSO DE DESENVOLVIMENTO
+
+## 1. Divisão de Tarefas na Equipe (4 Membros)
+
+A distribuição das atividades foi organizada de forma a adquar as habilidades dos integrantes e mantendo os registros técnicos necessários:
+
+| Nome | Função |
+|---|---|
+| Arthur Rebouças do Carmo | Ficou responsável por construir e fazer funcionar a parte visual que o produtor rural utiliza, incluindo a tela de entrada (formulário de Login), o painel inicial com resumos e números (Dashboard interativo com indicadores/KPIs), o catálogo de aulas (Central de Capacitações) e a navegação entre as informações dos cursos. Desenvolvel ainda a área usada pelos professores e especialistas (Painel Administrativo), o formulário para publicar novas aulas, a checagem automática para evitar erros ao preencher dados (validação visual de campos) e a adaptação visual para que o site funcione bem na tela de qualquer celular (responsividade e mobile-first). |
+| Sheila Matias Barroso | Controlar a união das partes do projeto feitas por cada colega (gestão de branches e controle de pull requests); Ficou responsável por escrever o guia explicativo do projeto (arquivo README.md), redigir o texto sobre a utilidade e o impacto do sistema na vida dos agricultores (seção do Componente Extensionista), montar o documento final para envio (Relatório Técnico em PDF). |
+| Carlos Rodrigo Ferreira da Silva | Organizar a gravação e edição da fala da equipe (vídeo demonstrativo)|
+| Vitoria Cavalcante Souza | Ficou responsável por criar a base e organizar as pastas onde o site foi construído (definição da arquitetura e repositório no GitHub); Dar apoio no código para quem precisasse (suporte técnico em desenvolvimento); Dar suporte na revisão do (arquivo README.md) e Relatório. |
+
+## 2. Dificuldades Encontradas durante a Sprint
+
+- **Perda de Integrantes na Equipe (Readequação do Escopo):** O grupo encolheu de 6 para 4 membros no meio do projeto, o que nos obrigou a reorganizar as tarefas rápido para conseguir entregar tudo no prazo.
+- **Pouco Tempo de Produção (Tempo Limitado de Execução):** Muito relacionado a questões individuais de capa membro, principalmente trabalho..
+- **Horários Diferentes para Conversar (Desafios na Comunicação Assíncrona):** A rotina dos integrantes era diferente, o que dificultava marcar reuniões com todo mundo ao mesmo tempo para alinhar o andamento do projeto.
+- **Diferença no Conhecimento de Programação (Disparidade Técnica):** Nem todos os membros sabiam programar no mesmo nível, o que gerou um peso inicial maior para quem já sabia e insegurança em quem estava aprendendo.
+- **Ajuste do Layout para Celulares (Responsividade e IHC):** Foi um desafio fazer com que os painéis e formulários de agendamento ficassem fáceis de mexer em telas pequenas de celular, que é como o agricultor vai usar no campo.
+- **Conflitos ao Juntar o Código dos Colegas (Conflitos no Git / Merge Conflicts):** Quando duas pessoas mexiam nas mesmas partes do código ao mesmo tempo, o sistema gerava travamentos na hora de unificar o projeto no GitHub.
+
+## 3. Soluções Adotadas
+
+- **Divisão Clara e Foco no Essencial (Redefinição do Escopo do MVP):** Reorganizamos a equipe para focar apenas nas telas mais importantes (Produtor e Rede de Apoio), definindo exatamente a responsabilidade de cada uma das 4 pessoas.
+- **Corte de Excessos para Cumprir Prazos (Priorização Ágil e Backlog Enxuto):** Deixamos de lado recursos muito complexos e focamos estritamente no que era obrigatório para ter a aplicação funcionando a tempo.
+- **Canal Único de Mensagens e Recados Diários (Comunicação Centralizada e Daily Check-ins):** Criamos um grupo de comunicação instantânea para tirar dúvidas rápidas e mandar resumos diários do que já tinha sido feito por cada um.
+- **Trabalho em Dupla e Apoio Mútuo (Mentoria Interna e Pair Programming):** Os integrantes com mais prática em código programaram junto com quem tinha menos experiência. Além disso, aproveitamos as facilidades de cada um em escrita, design ou edição de vídeo.
+- **Botões Grandes e Layout Flexível (Design Mobile-First e CSS Grid):** Criamos o visual pensando primeiro no uso pelo celular, colocando botões fáceis de apertar com o dedo (área de toque ampla) e organizando a tela para se ajustar a qualquer aparelho.
+- **Uso de Dados de Teste Padronizados (Centralização via Mock Data):** Criamos um arquivo com informações fictícias prontas para que todos usassem os mesmos dados no sistema, evitando erros ao testar as telas.
+
+---
+
+# ➕➕ COMPONENTE EXTENSIONISTA: ➕➕
+
+## Como utilizar a aplicação
+
+Ao fornecer uma interface intuitiva que organiza cursos, agendas e consultorias técnicas em um único ambiente, o sistema:
+- **Promove Inclusão Digital no Campo:** Permite que agricultores familiares naveguem sem dificuldades, mesmo com pouco domínio tecnológico.
+- **Fortalece a Economia Local:** Melhora o manejo agrícola e o controle de pragas, resultando em produtos de maior qualidade para as feiras agroecológicas locais.
+- **Gera Dados para Políticas Públicas:** Oferece às universidades e secretarias de agricultura dados consolidados sobre as principais demandas de capacitação da região.
+- **Alinha-se aos ODS da ONU:** Contribui diretamente com os Objetivos 1 (Erradicação da Pobreza), 2 (Fome Zero e Agricultura Sustentável) e 10 (Redução das Desigualdades).
+
+---
+## ANEXOS
+
+## 📸 [EP1] Telas do Protótipo
+
+### Login
+![Login](screenshots/Login.png)
+
+### Cadastro
+![Cadastro](screenshots/Cadastro.png)
+
+### Dashboard do Produtor
+![Dashboard do Produtor](screenshots/Dashboard.png)
+
+### Capacitações
+![Capacitações](screenshots/Capacitadores.png)
+
+### Detalhe da Capacitação
+![Detalhe da Capacitação](screenshots/Detalhe-Capacitacao.png)
+
+### Consultorias
+![Consultorias](screenshots/Consultorias.png)
+
+### Meus Treinamentos
+![Meus Treinamentos](screenshots/Meus-Treinamentos.png)
+
+### Agenda
+![Agenda](screenshots/Agenda.png)
+
+### Perfil
+![Perfil](screenshots/Perfil.png)
+
+---
+
+*UFCA — Centro de Educação a Distância (CEAD)*  
+*Análise e Desenvolvimento de Sistemas — Projeto Integrado III (ADS0038) — 2026*
+
+
