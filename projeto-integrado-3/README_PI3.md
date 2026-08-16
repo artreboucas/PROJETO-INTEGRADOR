@@ -6,7 +6,7 @@
 > - Prof. Dr. Luís Fabrício de Freitas Souza
 
 ---
-# HISTÓRIO DE ENTREGÁVEIS:
+# HISTÓRICO DE ENTREGÁVEIS:
 
 ## 🎨 [EP1] Protótipo Navegável (Figma)
 
