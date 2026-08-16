@@ -76,7 +76,16 @@ Login (Rede de Apoio)
 
 # 🌐 TECNOLOGIAS UTILIZADAS ??????
 
-?????????
+O MVP foi desenvolvido com foco em agilidade de entrega e simplicidade de manutenção, utilizando um stack moderno baseado em React e TypeScript:
+React 18: biblioteca principal para construção da interface, com componentes funcionais e hooks (useState, useEffect).
+
+- **TypeScript:** tipagem estática para maior segurança e manutenibilidade do código.
+- **Vite:** bundler e ferramenta de build, garantindo inicialização e compilação rápidas.
+- **React Router DOM:** gerenciamento de rotas e navegação entre as telas da aplicação (SPA).
+- **Lucide React:** biblioteca de ícones utilizada em toda a interface.
+- **CSS puro:** estilização da aplicação sem frameworks CSS externos, garantindo leveza.
+- **localStorage:** persistência simples da sessão do usuário no MVP, sem backend.
+- **Vercel:** plataforma de hospedagem e deploy contínuo integrada ao repositório GitHub.
 
 ---
 
@@ -151,14 +160,14 @@ Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas em su
 Abra o terminal de seu sistema operacional e execute o comando abaixo para clonar o projeto:
 ```
 Bash
-git clone https://github.com/seu-usuario/semeando-saberes-mvp.git
+git clone https://github.com/artreboucas/PROJETO-INTEGRADOR.git
 ```
 
 Em seguida, acesse o diretório raiz do projeto:
 
 ```
 Bash
-cd semeando-saberes-mvp
+PROJETO-INTEGRADOR/projeto-integrado-3/ep3-semeando-saberes-mvp
 ```
 
 **Passo 2:** Instalar as Dependências
@@ -170,14 +179,7 @@ npm install
 ```
 
 **Passo 3:** Configuração do Ambiente
-Como o MVP utiliza dados simulados em memória (Mock Data) para demonstração das funcionalidades sem necessidade de conexão ativa a banco de dados externo, não é necessária nenhuma configuração complexa de banco de dados local.
-
-(Opcional) Caso deseje ajustar a porta de execução ou conectar a serviços externos, crie um arquivo .env na raiz do projeto com base no arquivo de exemplo fornecido:
-
-```
-Bash
-cp .env.example .env
-```
+Configuração do Ambiente O MVP utiliza dados simulados em memória (Mock Data), definidos em src/data/mockData.ts, e persistência local via localStorage do navegador para manter a sessão do usuário. Não há conexão com banco de dados externo nem variáveis de ambiente a configurar — basta instalar as dependências e executar a aplicação.
 
 **Passo 4:** Executar a Aplicação
 Inicie o servidor de desenvolvimento local:
@@ -199,7 +201,7 @@ npm start
 **Passo 5:** Acessar o Sistema
 Após o término da inicialização no terminal, abra o seu navegador de preferência e acesse o endereço fornecido:
 
-**Endereço Padrão (Vite):** ????????????????????
+**[Endereço Padrão](http://localhost:5173)**
 
 ---
 
