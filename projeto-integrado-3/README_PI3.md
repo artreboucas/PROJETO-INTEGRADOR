@@ -28,7 +28,7 @@
 🔗 **[Acessar ao relatório](https://drive.google.com/drive/folders/1UF5wMLXgTJ-15nbzdrMTHb3-gcTI3dZY?usp=sharing)**
 
 ---
-# DESCRIÇÃO DO PROJETO:
+# 📂 DESCRIÇÃO DO PROJETO:
 
 ## 🎯 Objetivo do sistema
 
@@ -149,20 +149,21 @@ Abra o terminal de seu sistema operacional e execute o comando abaixo para clona
 ```
 Bash
 git clone https://github.com/seu-usuario/semeando-saberes-mvp.git
-Em seguida, acesse o diretório raiz do projeto:
 ```
+
+Em seguida, acesse o diretório raiz do projeto:
 
 ```
 Bash
 cd semeando-saberes-mvp
-Passo 2: Instalar as Dependências
-Instale todas as bibliotecas e pacotes necessários declarados no arquivo package.json:
 ```
+
+**Passo 2:** Instalar as Dependências
+Instale todas as bibliotecas e pacotes necessários declarados no arquivo package.json:
 
 ```
 Bash
 npm install
-(Caso utilize o Yarn, execute apenas yarn)
 ```
 
 **Passo 3:** Configuração do Ambiente
@@ -183,8 +184,9 @@ Se o projeto utiliza Vite (Padrão recomendado):
 ```
 Bash
 npm run dev
-Se o projeto utiliza Create React App:
 ```
+
+Se o projeto utiliza Create React App:
 
 ```
 Bash
