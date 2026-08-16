@@ -205,7 +205,7 @@ Após o término da inicialização no terminal, abra o seu navegador de prefer�
 
 ## ANEXOS
 
-## 📸 Telas do Protótipo
+## 📸 [EP1] Telas do Protótipo
 
 ### Login
 ![Login](screenshots/Login.png)
