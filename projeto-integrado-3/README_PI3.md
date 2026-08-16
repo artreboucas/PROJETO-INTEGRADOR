@@ -5,6 +5,15 @@
 > - Projeto Integrado III (ADS0038)
 > - Prof. Dr. Luís Fabrício de Freitas Souza
 
+## 👥 Equipe
+
+| Nome | Matrícula |
+|---|---|
+| Arthur Rebouças do Carmo | 2025019454 |
+| Sheila Matias Barroso | 2025014897 |
+| Carlos Rodrigo Ferreira da Silva | 2025014304 |
+| Vitoria Cavalcante Souza | 2025019481 |
+
 ---
 # HISTÓRICO DE ENTREGÁVEIS:
 
