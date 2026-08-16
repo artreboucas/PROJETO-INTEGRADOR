@@ -1,8 +1,9 @@
-# 🌱 Projeto Integrado III 
+# 🌱 Sistema de Gestão de Feiras Agroecológicas Locais
 
-> **Sistema de Gestão de Feiras Agroecológicas Locais**  
-> Curso de Análise e Desenvolvimento de Sistemas (ADS) — UFCA/CEAD  
-> Projeto Integrado III (ADS0038) — Prof. Luís Fabrício de Freitas Souza
+> UNIVERSIDADE FEDERAL DO CARIRI - UFCA
+> Curso de Análise e Desenvolvimento de Sistemas (ADS) 
+> Projeto Integrado III (ADS0038)
+> Prof. Dr. Luís Fabrício de Freitas Souza
 
 ---
 
