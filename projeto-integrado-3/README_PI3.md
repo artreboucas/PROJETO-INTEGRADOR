@@ -7,40 +7,11 @@
 
 ---
 
-## 🎨 [EP2] Protótipo Navegável (Figma)
+## 🎨 [EP1] Protótipo Navegável (Figma)
 
 🔗 **[Acessar protótipo no Figma](https://www.figma.com/design/Ikzoi5h2P2utdvvWbDfaKz/ProjetoIntegrador3?node-id=0-1&t=vYjMJ6uE4YkdTvjr-1)**
 
----
-
-## 📸 Telas do Protótipo
-
-### Login
-![Login](screenshots/Login.png)
-
-### Cadastro
-![Cadastro](screenshots/Cadastro.png)
-
-### Dashboard do Produtor
-![Dashboard do Produtor](screenshots/Dashboard.png)
-
-### Capacitações
-![Capacitações](screenshots/Capacitadores.png)
-
-### Detalhe da Capacitação
-![Detalhe da Capacitação](screenshots/Detalhe-Capacitacao.png)
-
-### Consultorias
-![Consultorias](screenshots/Consultorias.png)
-
-### Meus Treinamentos
-![Meus Treinamentos](screenshots/Meus-Treinamentos.png)
-
-### Agenda
-![Agenda](screenshots/Agenda.png)
-
-### Perfil
-![Perfil](screenshots/Perfil.png)
+📸 **Telas prototipadas: 
 
 ---
 
@@ -151,11 +122,41 @@ Princípios aplicados no protótipo:
 |---|---|
 | Arthur Rebouças do Carmo | 2025019454 |
 | Sheila Matias Barroso | 2025014897 |
-| Rubens Lopes dos Santos | 2025014805 |
 | Carlos Rodrigo Ferreira da Silva | 2025014304 |
-| Viviana Barros Gomes de Sousa | 2025014912 |
-| Samuelson da Silva Lima | 2025014860 |
 | Vitoria Cavalcante Souza | 2025019481 |
+
+---
+
+## ANEXOS
+
+## 📸 Telas do Protótipo
+
+### Login
+![Login](screenshots/Login.png)
+
+### Cadastro
+![Cadastro](screenshots/Cadastro.png)
+
+### Dashboard do Produtor
+![Dashboard do Produtor](screenshots/Dashboard.png)
+
+### Capacitações
+![Capacitações](screenshots/Capacitadores.png)
+
+### Detalhe da Capacitação
+![Detalhe da Capacitação](screenshots/Detalhe-Capacitacao.png)
+
+### Consultorias
+![Consultorias](screenshots/Consultorias.png)
+
+### Meus Treinamentos
+![Meus Treinamentos](screenshots/Meus-Treinamentos.png)
+
+### Agenda
+![Agenda](screenshots/Agenda.png)
+
+### Perfil
+![Perfil](screenshots/Perfil.png)
 
 ---
 
