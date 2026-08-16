@@ -203,6 +203,17 @@ Após o término da inicialização no terminal, abra o seu navegador de prefer�
 
 ---
 
+# ➕ COMPONENTE EXTENSIONISTA:
+
+## Como utilizar a aplicação
+
+Ao fornecer uma interface intuitiva que organiza cursos, agendas e consultorias técnicas em um único ambiente, o sistema:
+- **Promove Inclusão Digital no Campo:** Permite que agricultores familiares naveguem sem dificuldades, mesmo com pouco domínio tecnológico.
+- **Fortalece a Economia Local:** Melhora o manejo agrícola e o controle de pragas, resultando em produtos de maior qualidade para as feiras agroecológicas locais.
+- **Gera Dados para Políticas Públicas:** Oferece às universidades e secretarias de agricultura dados consolidados sobre as principais demandas de capacitação da região.
+- **Alinha-se aos ODS da ONU:** Contribui diretamente com os Objetivos 1 (Erradicação da Pobreza), 2 (Fome Zero e Agricultura Sustentável) e 10 (Redução das Desigualdades).
+
+---
 ## ANEXOS
 
 ## 📸 [EP1] Telas do Protótipo
