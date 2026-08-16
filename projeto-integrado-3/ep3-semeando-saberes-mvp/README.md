@@ -236,38 +236,6 @@ Ao fornecer uma interface intuitiva que organiza cursos, agendas e consultorias 
 - **Alinha-se aos ODS da ONU:** Contribui diretamente com os Objetivos 1 (Erradicação da Pobreza), 2 (Fome Zero e Agricultura Sustentável) e 10 (Redução das Desigualdades).
 
 ---
-## ANEXOS
-
-## 📸 [EP1] Telas do Protótipo
-
-### Login
-![Login](screenshots/Login.png)
-
-### Cadastro
-![Cadastro](screenshots/Cadastro.png)
-
-### Dashboard do Produtor
-![Dashboard do Produtor](screenshots/Dashboard.png)
-
-### Capacitações
-![Capacitações](screenshots/Capacitadores.png)
-
-### Detalhe da Capacitação
-![Detalhe da Capacitação](screenshots/Detalhe-Capacitacao.png)
-
-### Consultorias
-![Consultorias](screenshots/Consultorias.png)
-
-### Meus Treinamentos
-![Meus Treinamentos](screenshots/Meus-Treinamentos.png)
-
-### Agenda
-![Agenda](screenshots/Agenda.png)
-
-### Perfil
-![Perfil](screenshots/Perfil.png)
-
----
 
 *UFCA — Centro de Educação a Distância (CEAD)*  
 *Análise e Desenvolvimento de Sistemas — Projeto Integrado III (ADS0038) — 2026*
