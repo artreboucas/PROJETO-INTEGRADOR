@@ -217,7 +217,7 @@ Ao fornecer uma interface intuitiva que organiza cursos, agendas e consultorias 
 - **Fortalece a Economia Local:** Melhora o manejo agrícola e o controle de pragas, resultando em produtos de maior qualidade para as feiras agroecológicas locais.
 - **Gera Dados para Políticas Públicas:** Oferece às universidades e secretarias de agricultura dados consolidados sobre as principais demandas de capacitação da região.
 - **Alinha-se aos ODS da ONU:** Contribui diretamente com os Objetivos 1 (Erradicação da Pobreza), 2 (Fome Zero e Agricultura Sustentável) e 10 (Redução das Desigualdades).
-- **Centralização de conhecimento:**Ao centralizar capacitações, consultorias e compromissos, a plataforma pode facilitar a busca por orientação, apoiar a melhoria da produção e aproximar produtores de universidades, institutos e outras organizações.
+- **Centralização de conhecimento:** Ao centralizar capacitações, consultorias e compromissos, a plataforma pode facilitar a busca por orientação, apoiar a melhoria da produção e aproximar produtores de universidades, institutos e outras organizações.
 
 
 ---
