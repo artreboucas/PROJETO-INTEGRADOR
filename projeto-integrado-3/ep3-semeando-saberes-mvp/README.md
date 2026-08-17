@@ -151,26 +151,7 @@ npm run preview
 ### Recuperação de senha
 
 O fluxo de recuperação está representado no MVP de forma demonstrativa: o usuário informa o e-mail, acessa a etapa de código e retorna à tela de login. O envio real de e-mail será integrado posteriormente ao serviço previsto na arquitetura do EP2.
-
-## 🛠 Processo de desenvolvimento
-
-O desenvolvimento do MVP do Semeando Saberes foi conduzido de forma colaborativa, utilizando metodologias ágeis para garantir a entrega funcional dentro do prazo da Sprint 3.
-
-**Divisão de tarefas e colaboração:**
-A equipe foi dividida para cobrir as principais frentes do projeto: desenvolvimento da interface (UI/UX), implementação lógica das funcionalidades em React, documentação técnica e revisão do versionamento no GitHub. Mantivemos comunicação constante para alinhar a integração dos componentes e a consistência visual entre as telas.
-
-**Uso do GitHub e Versionamento:**
-Utilizamos o GitHub como nossa principal ferramenta de versionamento. Nossa estratégia consistiu no uso da branch principal (`main`).
-
-**Dificuldades encontradas e soluções:**
-* **Gerenciamento de Estado sem Backend:** O maior desafio foi simular um fluxo real de aplicação sem possuir um banco de dados integrado nesta etapa. A solução foi a criação de um módulo `mockData` centralizado e o uso do `localStorage` para persistir a sessão e dados do usuário localmente, garantindo uma experiência fluida de navegação.
-* **Consistência Visual:** Manter a interface responsiva e fiel ao protótipo sem o uso de frameworks CSS robustos foi um desafio. Optamos pelo uso de CSS puro, focando em boas práticas de flexbox e grid para garantir leveza e velocidade de carregamento.
   
-## 🌎 Impacto social
-
-A solução procura reduzir a dificuldade de acesso a conhecimento técnico enfrentada por agricultores familiares que participam de feiras agroecológicas. Ao centralizar capacitações, consultorias e compromissos, a plataforma pode facilitar a busca por orientação, apoiar a melhoria da produção e aproximar produtores de universidades, institutos e outras organizações.
-
-A aplicação também pode contribuir para a inclusão digital no campo, fortalecer a economia local e gerar, em uma evolução futura, dados úteis para planejamento de ações de extensão e políticas públicas.
 
 ## 🏗️ Relação com o EP2
 
@@ -196,7 +177,7 @@ O EP2 definiu uma arquitetura Cliente-Servidor, com frontend React/TypeScript, T
 
 ## 1. Divisão de Tarefas na Equipe (4 Membros)
 
-A distribuição das atividades foi organizada de forma a adquar as habilidades dos integrantes e mantendo os registros técnicos necessários:
+A distribuição das atividades foi organizada de forma a adequar as habilidades dos integrantes e mantendo os registros técnicos necessários:
 
 | Nome | Função |
 |---|---|
@@ -213,6 +194,8 @@ A distribuição das atividades foi organizada de forma a adquar as habilidades 
 - **Diferença no Conhecimento de Programação (Disparidade Técnica):** Nem todos os membros sabiam programar no mesmo nível, o que gerou um peso inicial maior para quem já sabia e insegurança em quem estava aprendendo.
 - **Ajuste do Layout para Celulares (Responsividade e IHC):** Foi um desafio fazer com que os painéis e formulários de agendamento ficassem fáceis de mexer em telas pequenas de celular, que é como o agricultor vai usar no campo.
 - **Conflitos ao Juntar o Código dos Colegas (Conflitos no Git / Merge Conflicts):** Quando duas pessoas mexiam nas mesmas partes do código ao mesmo tempo, o sistema gerava travamentos na hora de unificar o projeto no GitHub.
+- **Gerenciamento de Estado sem Backend:** O maior desafio foi simular um fluxo real de aplicação sem possuir um banco de dados integrado nesta etapa. A solução foi a criação de um módulo `mockData` centralizado e o uso do `localStorage` para persistir a sessão e dados do usuário localmente, garantindo uma experiência fluida de navegação.
+- **Consistência Visual:** Manter a interface responsiva e fiel ao protótipo sem o uso de frameworks CSS robustos foi um desafio. Optamos pelo uso de CSS puro, focando em boas práticas de flexbox e grid para garantir leveza e velocidade de carregamento.
 
 ## 3. Soluções Adotadas
 
@@ -234,6 +217,8 @@ Ao fornecer uma interface intuitiva que organiza cursos, agendas e consultorias 
 - **Fortalece a Economia Local:** Melhora o manejo agrícola e o controle de pragas, resultando em produtos de maior qualidade para as feiras agroecológicas locais.
 - **Gera Dados para Políticas Públicas:** Oferece às universidades e secretarias de agricultura dados consolidados sobre as principais demandas de capacitação da região.
 - **Alinha-se aos ODS da ONU:** Contribui diretamente com os Objetivos 1 (Erradicação da Pobreza), 2 (Fome Zero e Agricultura Sustentável) e 10 (Redução das Desigualdades).
+- **Centralização de conhecimento:**Ao centralizar capacitações, consultorias e compromissos, a plataforma pode facilitar a busca por orientação, apoiar a melhoria da produção e aproximar produtores de universidades, institutos e outras organizações.
+
 
 ---
 
