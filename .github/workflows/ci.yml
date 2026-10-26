@@ -1,0 +1,35 @@
+name: CI - Semeando Saberes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "projeto-integrado-4/ep1-semeando-saberes-ci/**"
+      - ".github/workflows/ci.yml"
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projeto-integrado-4/ep1-semeando-saberes-ci
+
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v4
+
+      - name: Configurar o Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: projeto-integrado-4/ep1-semeando-saberes-ci/package-lock.json
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Build (checagem de tipos + compilação)
+        run: npm run build
