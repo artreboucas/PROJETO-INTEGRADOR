@@ -15,7 +15,72 @@
 | Vitoria Cavalcante Souza | 2025019481 |
 
 ---
-  
+## ⚙️ Integração Contínua (CI) com GitHub Actions
+
+[![CI - Semeando Saberes](https://github.com/artreboucas/PROJETO-INTEGRADOR/actions/workflows/ci.yml/badge.svg)](https://github.com/artreboucas/PROJETO-INTEGRADOR/actions/workflows/ci.yml)
+
+Este projeto possui um pipeline de integração contínua que verifica automaticamente se o código continua compilando a cada alteração enviada ao GitHub. O objetivo é detectar erros cedo, antes que eles cheguem à versão final da aplicação.
+
+### O que é integração contínua? 
+
+Imagine que um time está escrevendo um trabalho em grupo e cada pessoa escreve uma parte. Se ninguém confere o conjunto até o último dia, é muito provável que as partes não se encaixem: estilos diferentes, trechos repetidos, informações que se contradizem.
+
+A **integração contínua (CI)** resolve esse problema no mundo do software. Toda vez que alguém envia código novo para o repositório, um "robô" baixa o projeto, instala o que ele precisa e tenta construí-lo, tudo de forma automática. Se algo quebrou, o time descobre em poucos minutos, quando o erro ainda é pequeno e fácil de corrigir.
+
+**Por que isso é importante para quem está aprendendo a programar?**
+
+- **Feedback rápido:** você descobre o erro logo depois de cometê-lo, sem depender de alguém testar manualmente.
+- **Trabalho em equipe mais seguro:** o código de uma pessoa não quebra o projeto dos colegas sem que ninguém perceba.
+- **Hábito profissional:** empresas de tecnologia usam CI no dia a dia, então aprender cedo ajuda no mercado de trabalho.
+- **Confiança para mudar o código:** com a verificação automática, fica menos assustador experimentar e melhorar o projeto.
+- **Registro público:** o histórico de execuções mostra o que passou e o que falhou, o que facilita aprender com os próprios erros.
+
+
+### Como o CI funciona neste projeto
+
+O pipeline está definido no arquivo [`.github/workflows/ci.yml`](../../.github/workflows/ci.yml), na raiz do repositório. Como o projeto fica dentro de uma subpasta, o workflow usa `working-directory` para executar os comandos no lugar certo.
+
+**Quando ele roda:**
+
+| Gatilho | Descrição |
+|---|---|
+| `push` na branch `main` | Quando há alterações em `projeto-integrado-4/ep1-semeando-saberes-ci/` ou no próprio workflow |
+| `pull_request` para `main` | Para validar propostas de mudança antes de juntá-las ao projeto |
+| `workflow_dispatch` | Permite executar manualmente pela aba **Actions** |
+
+**O que ele faz (job `build`, em `ubuntu-latest`):**
+
+| Etapa | O que acontece | Por que existe |
+|---|---|---|
+| Baixar o código | `actions/checkout@v4` copia o repositório para a máquina do GitHub | O robô precisa do código para trabalhar |
+| Configurar o Node.js | `actions/setup-node@v4` instala o Node 22 e guarda o cache do npm | O projeto usa Vite e TypeScript, que rodam sobre Node; o cache deixa as próximas execuções mais rápidas |
+| Instalar dependências | `npm ci` | Instala exatamente as versões do `package-lock.json`, garantindo um ambiente reproduzível |
+| Build | `npm run build` (`tsc -b && vite build`) | Verifica os tipos do TypeScript e compila a aplicação; se houver erro, o pipeline falha |
+
+### Como acompanhar o resultado
+
+1. No repositório do GitHub, abra a aba **Actions**.
+2. Clique na execução mais recente de **CI - Semeando Saberes**.
+3. ✅ verde significa que tudo passou; ❌ vermelho significa que alguma etapa falhou. Clique no job `build` e abra a etapa com erro para ler a mensagem.
+
+### Como rodar a mesma verificação no seu computador
+
+Antes de enviar alterações, vale rodar localmente o que o CI executará:
+
+```bash
+cd projeto-integrado-4/ep1-semeando-saberes-ci
+npm ci
+npm run build
+```
+
+Se funcionar na sua máquina, a chance de passar no GitHub é grande.
+
+### Escopo e próximos passos
+
+O projeto ainda não possui scripts de `lint` nem de testes automatizados, por isso o CI executa a instalação e o build, que já valida tipos e compilação. Como evolução, é possível adicionar o ESLint (etapa de lint) e testes com Vitest, bastando incluir os scripts no `package.json` e novas etapas no `ci.yml`.
+
+> **Nota:** o código da aplicação (MVP Semeando Saberes) foi desenvolvido no Projeto Integrado III e reaproveitado aqui como projeto de exemplo para a configuração do CI no Projeto Integrado IV.
+
 ## 🎯 Sobre o projeto
 
 O Semeando Saberes conecta agricultores familiares a uma rede de apoio técnico e profissional, reunindo capacitações, consultorias, agenda e acompanhamento de treinamentos em uma única aplicação web.
@@ -91,7 +156,7 @@ semeando-saberes-mvp/
 
 ```bash
 git clone https://github.com/artreboucas/PROJETO-INTEGRADOR.git
-cd PROJETO-INTEGRADOR
+cd projeto-integrado-4/ep1-semeando-saberes-ci
 ```
 
 Caso esta pasta seja copiada para outro repositório, entre no diretório do MVP antes de continuar.
